@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headline {
+    background-color: darkred;
+    color: white;
+
+}
+
+.sicon {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+.btn-color {
+    background-color: orange;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+
+
+}
+
+.headpara {
+    background-color: orange;
+    color: white;
+}
+
+.slide1 {
+    aspect-ratio: 7/2;
+
+}
+
+@media (max-width: 575px) {
+    .w100 {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .w101 {
+
+        width: 45%;
+        border-radius: 0px;
+    }
+
+    .display {
+        display: none;
+
+    }
+}
+
+.aboutphoto {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.abouttitle {
+    text-align: center;
+
+}
+
+@media (max-width:462px) {
+    .RBS {
+        margin-right: 110px;
+    }
+}
